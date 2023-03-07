@@ -60,7 +60,7 @@ a {
     font-size: 18px;
 }
 
-button {
+.hero-button {
     width: 100px;
     padding: 8px 16px;
     border-radius: 5px;
@@ -70,7 +70,7 @@ button {
     font-weight: 700;
 }
 
-button:hover {
+.hero-button:hover {
     background-color: #1d70f7;
 }
 
@@ -149,4 +149,52 @@ button:hover {
     font-weight: 700;
     text-align: end;
     width: 800px;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+}
+
+.inner {
+    background-color: #1d70f7;
+    width: 800px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-heading {
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #E5E7EB;
+}
+
+.text p {
+    color: #E5E7EB;
+}
+
+.signup-button {
+    width: 100px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 2px solid #E5E7EB;
+    background-color: #1d70f7;
+    color: white;
+    font-weight: 700;
+}
+
+.signup-button:hover {
+    background-color: #0662f7;
 }
