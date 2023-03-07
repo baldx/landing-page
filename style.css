@@ -44,12 +44,13 @@ a {
     width: 400px;
     flex-wrap: wrap;
     padding: 32px;
+    margin: 16px;
 }
 
 .hero-image {
     width: 466px;
     height: 267px;
-
+    margin: 16px;
 }
 
 .hero-stuff h1 {
