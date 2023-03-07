@@ -137,6 +137,16 @@ button:hover {
 }
 
 .quote {
-    border: 2px solid black;
     flex-wrap: wrap;
+    font-size: 36px;
+    font-weight: lighter;
+    width: 800px;
+    margin-bottom: 5px;
+}
+
+.signature {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: end;
+    width: 800px;
 }
