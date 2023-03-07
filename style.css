@@ -24,7 +24,7 @@ ul {
     gap: 32px;
 }
 
-a {
+.header a {
     text-decoration: none;
     color: #E5E7EB;
 }
@@ -124,6 +124,10 @@ a {
     padding-right: 8px;
     text-align: center;
     flex: 1;
+    color: #8c8f94;
+}
+
+a {
     color: #8c8f94;
 }
 
