@@ -13,6 +13,11 @@ body {
     align-items: center;
 }
 
+.header img {
+    width: 200px;
+    border-radius: 20px;
+}
+
 ul {
     display: flex;
     list-style-type: none;
